@@ -31,7 +31,7 @@
 			<x-header.link link="/participacion-ciudadana" label="Participación ciudadana" />
 			</li>
 			<li>
-			<x-header.link link="#" label="Gobernanza" />
+			<x-header.link link="/gobernanza" label="Gobernanza" />
 			</li>
 		</ul>
 		</div>

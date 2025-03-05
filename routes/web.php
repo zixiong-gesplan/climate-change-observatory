@@ -49,3 +49,7 @@ Route::get('/mitigacion', function () {
 Route::get('/participacion-ciudadana', function () {
     return view('Front.Citizenship.index');
 });
+
+Route::get('/gobernanza', function () {
+    return view('Front.Governance.index');
+});
