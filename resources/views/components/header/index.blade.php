@@ -1,4 +1,7 @@
 <nav class="sticky top-0 z-10 bg-white border-gray-200 dark:bg-gray-900">
+    <div class="w-full max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <img src="https://interregmac.org/wp-content/uploads/2023/07/Group-9.jpg" class="w-1/4 mx-auto"/>
+    </div>
 	<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 		<a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
 			<img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
