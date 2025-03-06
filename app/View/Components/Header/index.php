@@ -24,6 +24,6 @@ class Navbar extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.heaer.index');
+        return view('components.Header.index');
     }
 }

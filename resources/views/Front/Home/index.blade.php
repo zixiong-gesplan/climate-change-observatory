@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class="relative w-full h-[1000px] md:h-[1200px] flex justify-center items-center overflow-hidden -top-[40px]">
+    <section class="relative w-full h-[1000px] md:h-[1200px] flex justify-center items-center overflow-hidden">
         <img src="images/sky.png" 
             alt="sky"
             class="absolute top-0 left-0 w-full h-full object-cover pointer-events-none scale-125"

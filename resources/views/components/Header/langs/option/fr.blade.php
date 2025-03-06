@@ -1,4 +1,4 @@
-<x-header.lang.option._layout
+<x-Header.langs.option._layout
     href="#"
 >
     <svg class="h-3.5 w-3.5 rounded-full me-2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="256" height="256" viewBox="0 0 256 256" xml:space="preserve">
@@ -9,6 +9,6 @@
         </g>
     </svg>
     Fraçais
-</x-header.lang.option._layout>
+</x-Header.langs.option._layout>
 
 

@@ -21,6 +21,6 @@ class ScrollLine extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.header.scroll-line');
+        return view('components.Header.scroll-line');
     }
 }

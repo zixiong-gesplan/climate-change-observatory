@@ -21,6 +21,6 @@ class Langs extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.header.langs');
+        return view('components.Header.langs.index');
     }
 }

@@ -25,6 +25,6 @@ class Link extends Component
      */
     public function render(): View|Closure|string
     {
-        return view('components.header.link.index');
+        return view('components.Header.link.index');
     }
 }
