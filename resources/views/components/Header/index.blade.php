@@ -7,36 +7,22 @@
 			<img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
 		</a>
 		<x-Header.langs/>
-		<div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-language">
-            <ul class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700">
-                <li>
-                    <x-Header.link link="/cambio-climatico" label="El cambio climatico" current="current"/>
-                </li>
-                <li>
-                    <x-Header.link link="/observatorio" label="El observatorio" />
-                </li>
-                <li>
-                    <x-Header.link link="/mitigacion" label="Mitigación" />
-                </li>
-                <li>
-                    <button 
-                        id="menu-dropdown-button" 
-                        data-collapse-toggle="menu-dropdown" 
-                        class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded-sm md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
-                    >
-                        Adaptación 
-                        <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-                        </svg>
-                    </button>
-                </li>
-                <li>
-                    <x-Header.link link="/participacion-ciudadana" label="Participación ciudadana" />
-                </li>
-                <li>
-                    <x-Header.link link="/gobernanza" label="Gobernanza" />
-                </li>
-            </ul>
+		<div class="items-center justify-between w-full md:flex md:w-auto md:order-1 flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700" id="navbar-language">
+            <x-Header.link link="/cambio-climatico" label="El cambio climatico" current="current"/>
+            <x-Header.link link="/observatorio" label="El observatorio" />
+            <x-Header.link link="/mitigacion" label="Mitigación" />
+            <button 
+                id="menu-dropdown-button" 
+                data-collapse-toggle="menu-dropdown" 
+                class="flex items-center justify-between w-full py-2 px-3 text-gray-900 rounded-sm md:w-auto hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-600 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-blue-500 md:dark:hover:bg-transparent dark:border-gray-700"
+            >
+                Adaptación 
+                <svg class="w-2.5 h-2.5 ms-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+                </svg>
+            </button>
+            <x-Header.link link="/participacion-ciudadana" label="Participación ciudadana" />
+            <x-Header.link link="/gobernanza" label="Gobernanza" />
 		</div>
 	</div>
 
@@ -72,10 +58,6 @@
                         title="IDAFE"
                         subtitle="Concienciación del Cambio Climático en Colegios e Institutos."
                     />
-                    <a href="#" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700">
-                        <div class="font-semibold"></div>
-                        <span class="text-sm text-gray-500 dark:text-gray-400">.</span>
-                    </a>
                 </li>
                 <li>
                     <a href="#" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 text-red-500">
