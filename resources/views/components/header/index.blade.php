@@ -1,5 +1,5 @@
 <nav class="sticky top-0 z-10 bg-white border-gray-200 dark:bg-gray-900">
-    <div class="w-full max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <div class="w-full max-w-screen-xl flex flex-wrap items-center justify-between mx-auto border-b-2 border-blue-800">
         <img src="https://interregmac.org/wp-content/uploads/2023/07/Group-9.jpg" class="w-1/4 mx-auto"/>
     </div>
 	<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
@@ -31,10 +31,10 @@
 				</button>
 			</li>
 			<li>
-			<x-header.link link="/participacion-ciudadana" label="Participación ciudadana" />
+                <x-header.link link="/participacion-ciudadana" label="Participación ciudadana" />
 			</li>
 			<li>
-			<x-header.link link="/gobernanza" label="Gobernanza" />
+                <x-header.link link="/gobernanza" label="Gobernanza" />
 			</li>
 		</ul>
 		</div>

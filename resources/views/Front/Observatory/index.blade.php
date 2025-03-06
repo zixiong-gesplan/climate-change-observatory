@@ -121,7 +121,7 @@
             </div>
         </div>
     </section>
-    <script>
+    {{-- <script>
         const { animate, inView } = Motion
         inView("section", (element) => {
             animate(
@@ -135,5 +135,5 @@
 
             return () => animate(element, { opacity: 0, y: 0 })
         })
-    </script>
+    </script> --}}
 @endsection
