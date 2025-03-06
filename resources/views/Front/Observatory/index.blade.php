@@ -3,7 +3,7 @@
 @section('content')
     <section class="w-full relative -z-10 flex gap-10 overflow-hidden h-48 px-8">
         <figure class="relative w-full rounded-lg overflow-hidden bg-cover bg-no-repeat">
-            <img class=" object-cover absolute rounded-lg" src="images/Panorama-ITER.jpg" alt="image description">
+            <img class=" object-cover absolute rounded-lg" src="images/Panorama-ITER.jpg" alt="image description" loading="lazy">
             <figcaption class="w-full h-full bg-green-400 bg-opacity-40 p-4 transition-all text-black absolute duration-300 cursor pointer hover:bg-opacity-0 rounded-lg">
                 <h2 class="text-3xl font-bold w-full text-center h-full flex justify-center items-center text-white">El Observatorio de Cambio Climatico de la Macaronesia</h2>
             </figcaption>

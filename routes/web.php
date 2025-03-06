@@ -53,3 +53,7 @@ Route::get('/participacion-ciudadana', function () {
 Route::get('/gobernanza', function () {
     return view('Front.Governance.index');
 });
+
+Route::get('/huella-carbono', function (){
+    return view('Front.Tools.CarbonFootprint.index');
+});

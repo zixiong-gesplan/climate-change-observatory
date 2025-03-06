@@ -2,8 +2,9 @@
 
 @section('content')
 <main class="w-full">
-    <section class="w-10/12 mx-auto bg-green-400 rounded-3xl p-4 m-4 min-h-80 flex flex-col lg:flex-row justify-center lg:justify-start lg:items-center ">
-        <h1 class=" w-full lg:w-1/2 text-2xl lg:text-4xl font-bold text-left">
+    <section class="w-10/12 mx-auto p-4 m-4 min-h-80 flex flex-col lg:flex-row justify-center lg:justify-start lg:items-center h-96 relative box-content	">
+        <img src="/images/Participacion-ciudadana-portada.jpeg" class="object-center size-full rounded-3xl"/>  
+        <h1 class=" w-full text-2xl lg:text-4xl font-bold absolute pl-4 lg:pl-0 text-white text-balance text-center box-content	">
             Participación ciudadana
         </h1>
     </section>

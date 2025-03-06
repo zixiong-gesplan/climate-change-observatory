@@ -4,11 +4,12 @@
     <section class="relative w-full h-[1000px] md:h-[1200px] flex justify-center items-center overflow-hidden">
         <img src="images/sky.png" 
             alt="sky"
-            class="absolute top-0 left-0 w-full h-full object-cover pointer-events-none scale-125"
+            class="absolute top-0 left-0 w-full h-full object-cover pointer-events-none scale-125 saturate-150"
             id="sky"
+            loading="lazy"
         >
         <h1
-            class="absolute text-white -translate-y-[50%] top-[55%] w-11/12 md:w-1/2 font-extrabold text-4xl lg:text-5xl mx-auto"
+            class="absolute text-white -translate-y-[50%] top-[40%] w-11/12 md:w-1/2 font-extrabold text-4xl lg:text-5xl mx-auto drop-shadow-2xl text-balance"
             id="title"
         >Observatorio de cambio climático de la <span>Macaronesia</span></h1>
         
@@ -16,6 +17,7 @@
             alt="mountains-1"
             class="absolute -top-[160px] md:-top-[150px] left-0 w-full h-full object-cover pointer-events-none drop-shadow-[0_-30px_16px_rgba(0,0,0,0.50)]"
             id="mountains-1"
+            loading="lazy"
         >
         
         <img src="images/bg-2.png" 
@@ -23,7 +25,7 @@
             class="absolute left-0 w-full h-full object-cover pointer-events-none drop-shadow-[0_-60px_35px_rgba(0,0,0,0.50)]"
             id="mountains-2"
             style="top:-160px"
-
+            loading="lazy"
         >
         
         <img src="images/water.png" 
@@ -31,6 +33,7 @@
             class="absolute left-0 w-full h-full object-cover pointer-events-none drop-shadow-[0_-30px_35px_rgba(167,243,208,0.25)]"
             id="water"
             style="top:-160px"
+            loading="lazy"
         >
     </section>
     <section class="bg-[#3D8D7A] bg-right-top bg-cover w-full h-full m-0 p-0 bg-no-repeat p-4 flex flex-col ">
