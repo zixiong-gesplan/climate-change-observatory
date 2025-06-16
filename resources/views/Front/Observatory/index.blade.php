@@ -55,7 +55,7 @@
             <div class="w-full">
                 <x-ImageZoom 
                     src="https://fastly.picsum.photos/id/1/200/300.jpg?hmac=jH5bDkLr6Tgy3oAg5khKCHeunZMHq0ehBZr6vGifPLY"
-                    class="w-full"
+                    class="w-full h-96"
                 />
             </div>
         </section>
@@ -63,9 +63,8 @@
     <section class="w-full bg-green-50 py-4">
         <div class="w-8/12 mx-auto flex gap-4 flex-col lg:flex-row">
             <div class="relative w-full lg:w-1/4 overflow-hidden bg-cover bg-no-repeat rounded-lg flex justify-center">
-                <img 
+                <x-ImageZoom 
                     src="https://fastly.picsum.photos/id/1/200/300.jpg?hmac=jH5bDkLr6Tgy3oAg5khKCHeunZMHq0ehBZr6vGifPLY" 
-                    alt=""
                     class="h-96 duration-300 ease-in-out hover:scale-125 cursor-pointer rounded-lg"
                 />
             </div>
@@ -79,15 +78,14 @@
     <section class="w-full mt-2">
         <div class="w-8/12 mx-auto grid grid-rows-3 gap-2">
             <div class="flex gap-4 flex-col lg:flex-row">
-                <img 
+                <x-ImageZoom 
                     src="https://fastly.picsum.photos/id/1/200/300.jpg?hmac=jH5bDkLr6Tgy3oAg5khKCHeunZMHq0ehBZr6vGifPLY" 
-                    alt=""
-                    class="w-full lg:w-7/12 max-h-48 rounded-lg"
-                >
-                <div class="rounded-lg bg-green-50 p-4 flex flex-col gap-4 m-0">
-                    <h1 class="text-4xl">Nuestras metas</h1>
-                    <p>Buscamos mejorar el entorno en la macaronesia</p>
-                    <button class="bg-green-700 text-white rounded-full max-w-48 py-1">Saber más</button>
+                    class="w-full h-64 duration-500 ease-in-out hover:scale-125 cursor-pointer rounded-lg"
+                />
+                <div class="rounded-lg bg-green-700 p-4 flex flex-col gap-4 m-0">
+                    <h1 class="text-4xl text-white">Nuestras metas</h1>
+                    <p class="text-white">Buscamos mejorar el entorno en la macaronesia</p>
+                    <button class="bg-green-50 text-black rounded-full max-w-48 py-1">Saber más</button>
                 </div>
             </div>
             <div class="flex flex-col lg:flex-row gap-4">

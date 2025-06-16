@@ -4,7 +4,7 @@
 <main class="w-full">
     <section class="w-10/12 mx-auto p-4 m-4 min-h-80 flex flex-col lg:flex-row justify-center lg:justify-start lg:items-center h-96 relative box-content	">
         <img src="/images/Participacion-ciudadana-portada.jpeg" class="object-center size-full rounded-3xl"/>  
-        <h1 class=" w-full text-2xl lg:text-4xl font-bold absolute pl-4 lg:pl-0 text-white text-balance text-center box-content	">
+        <h1 class=" w-full text-2xl lg:text-4xl font-bold absolute ps-4 lg:ps-0 text-white text-balance text-center box-content	">
             Participación ciudadana
         </h1>
     </section>
@@ -51,8 +51,7 @@
           <p class="text-sm font-medium text-slate-100/70">CEO at XYZ Corporation</p>
         </div>
       </div>
-      <div
-        class="border p-7 rounded-xl bg-green-800/50 drop-shadow-md border-neutral-800/50 col-span-3 flex flex-col gap-y-10 justify-between">
+      <div class="border p-7 rounded-xl bg-green-800/50 drop-shadow-md border-neutral-800/50 col-span-3 flex flex-col gap-y-10 justify-between">
         <div class="flex flex-col gap-y-3.5">
           <p class="font-bold text-xl text-white">Seamless integration process</p>
           <p class="font-medium text-white">Integrating our systems with our service was smooth and hassle-free. The
