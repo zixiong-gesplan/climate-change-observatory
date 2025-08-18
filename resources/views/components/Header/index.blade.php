@@ -1,14 +1,14 @@
 <nav class="sticky top-0 z-10 bg-white border-gray-200 dark:bg-gray-900 drop-shadow-md" role="navigation">
 
 	<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2 px-4">
-		<a href="/public/" class="flex items-center space-x-3 rtl:space-x-reverse">
+		<a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
 			<img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
 		</a>
 		<x-Header.langs/>
 		<div class="hidden items-center justify-between w-full md:flex md:w-auto md:order-1  flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700" id="navbar-language">
-            <x-Header.link link="/public/cambio-climatico" label="El cambio climatico" current="current"/>
-            <x-Header.link link="/public/observatorio" label="El observatorio" />
-            <x-Header.link link="/public/mitigacion" label="Mitigación" />
+            <x-Header.link link="/cambio-climatico" label="El cambio climatico" current="current"/>
+            <x-Header.link link="/observatorio" label="El observatorio" />
+            <x-Header.link link="/mitigacion" label="Mitigación" />
             <button 
                 id="menu-dropdown-button" 
                 data-collapse-toggle="menu-dropdown" 
@@ -19,8 +19,8 @@
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                 </svg>
             </button>
-            <x-Header.link link="/public/participacion-ciudadana" label="Participación ciudadana" />
-            <x-Header.link link="/public/gobernanza" label="Gobernanza" />
+            <x-Header.link link="/participacion-ciudadana" label="Participación ciudadana" />
+            <x-Header.link link="/gobernanza" label="Gobernanza" />
 		</div>
 	</div>
 	<div id="menu-dropdown" class="hidden absolute w-full z-20 shadow-xs bg-gray-50 md:bg-white dark:bg-gray-800 border-t-2 border-blue-800">
@@ -28,7 +28,7 @@
             <ul>
                 <li>
                     <x-Header.dropdown-menu-link
-                        href="/public/huella-carbono"
+                        href="/huella-carbono"
                         title="Huella de Carbono"
                         subtitle="Calcula el impacto de tu huella de carbono."
                     />

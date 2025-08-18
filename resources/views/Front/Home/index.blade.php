@@ -31,7 +31,7 @@
                     <a class="bg-green-600 rounded-full px-4 py-2 text-white font-bold" href="cambio-climatico#projects">
                         Nuestras iniciativas
                     </a>
-                    <a href="/public/observatorio" class="text-green-600 font-bold px-4 py-2">
+                    <a href="/observatorio" class="text-green-600 font-bold px-4 py-2">
                         Descubre más del Observatorio
                         
                     </a>
@@ -63,7 +63,7 @@
                     Desde el Observatorio queremos asistirte en en la búsqueda de sostenibilidad para luchar contra el cambio climático
                 </p>
                 <div class="flex overflow-x-visible gap-4">
-                    <a href="/public/huella-carbono" target="_blank" class="text-base font-normal border rounded-full border-blue-300 bg-slate-500 px-4 py-2 flex gap-4 items-center">
+                    <a href="/huella-carbono" target="_blank" class="text-base font-normal border rounded-full border-blue-300 bg-slate-500 px-4 py-2 flex gap-4 items-center">
                         Caculadora de CO2 
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none">
                             <g id="Interface / External_Link">
@@ -101,7 +101,7 @@
             <p class="py-2 text-lg">
                 Aunque estos cambios pueden ocurrir de manera natural debido a factores como erupciones volcánicas y variaciones en la radiación solar, en la actualidad el término se usa principalmente para referirse al calentamiento global causado por la actividad humana, en concreto por la combustión de combustibles fósiles. Estas variaciones climáticas se están intensificando y repercuten sobre todo ser vivo en el planeta 
             </p>
-            <a href="/public/cambio-climatico" class="text-green-600 font-bold bg-white rounded-full px-4 py-1 mt-2">
+            <a href="/cambio-climatico" class="text-green-600 font-bold bg-white rounded-full px-4 py-1 mt-2">
                 Más información
             </a>
         </div>
