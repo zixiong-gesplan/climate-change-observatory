@@ -28,7 +28,7 @@
             <ul>
                 <li>
                     <x-Header.dropdown-menu-link
-                        hhref="uella-carbono"
+                        href="huella-carbono"
                         title="Huella de Carbono"
                         subtitle="Calcula el impacto de tu huella de carbono."
                     />
