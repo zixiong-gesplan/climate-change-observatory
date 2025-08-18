@@ -41,13 +41,13 @@
                 <div class="swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="/images/swiper1.jpg" class="rounded-lg drop-shadow-lg w-full aspect-video"/>
+                            <img src="images/swiper1.jpg" class="rounded-lg drop-shadow-lg w-full aspect-video"/>
                         </div>
                         <div class="swiper-slide">
-                            <img src="/images/swiper2.jpg" class="rounded-lg drop-shadow-lg w-full aspect-video"/>
+                            <img src="images/swiper2.jpg" class="rounded-lg drop-shadow-lg w-full aspect-video"/>
                         </div>
                         <div class="swiper-slide">
-                            <img src="/images/swiper3.jpg" class="rounded-lg drop-shadow-lg w-full aspect-video"/>
+                            <img src="images/swiper3.jpg" class="rounded-lg drop-shadow-lg w-full aspect-video"/>
                         </div>
                     </div>
                 </div> 
