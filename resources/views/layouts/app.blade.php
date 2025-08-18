@@ -11,7 +11,7 @@
         <link 
             href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" 
             rel="stylesheet" />
-        <link rel="stylesheet" href="build/assets/app.css">
+        <link rel="stylesheet" href="/build/assets/app.css">
         <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet"/>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
