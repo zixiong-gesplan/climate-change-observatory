@@ -1,6 +1,6 @@
 
 <section id="about" class="w-full py-12 md:py-24 lg:py-32 bg-green-300 relative overflow-hidden -z-10">
-    <div class="absolute inset-0 bg-fixed bg-[url('/publicimages/climate_change.png')] bg-cover bg-center opacity-20"></div>
+    <div class="absolute inset-0 bg-fixed bg-[url('/public/images/climate_change.png')] bg-cover bg-center opacity-20"></div>
     <div class="container px-4 md:px-6 relative z-10 justify-center m-auto">
         <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center text-white">
             Entendiendo el Cambio Climático
