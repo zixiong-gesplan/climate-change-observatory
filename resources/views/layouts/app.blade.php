@@ -11,7 +11,6 @@
         <link 
             href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" 
             rel="stylesheet" />
-        <link rel="stylesheet" href="build/assets/app.css">
         <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
         <link href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" rel="stylesheet"/>
         <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
@@ -52,7 +51,8 @@
         <x-Footer/>
         <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        
+        <link rel="stylesheet" href="build/assets/app.css">
+
         <script>
             const swiper = new Swiper('.swiper', {
                 // Optional parameters
