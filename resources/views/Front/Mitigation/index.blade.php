@@ -28,7 +28,7 @@
 
 <section class="w-full h-[520px] flex justify-center">
     <video class="w-full h-full object-cover mx-auto rounded-xl absolute" autoplay muted id="video">
-        <source src="/images/mitigacion.mp4" type="video/mp4">
+        <source src="images/mitigacion.mp4" type="video/mp4">
     </video>
     <div id="main-text-video" class="w-full bg-black bg-opacity-30">
         <div class="relative z-10 flex h-full items-center mx-auto">
@@ -120,7 +120,7 @@
             <!-- Slide 1 -->
             <article class="carousel-slide min-w-full rounded-2xl bg-gradient-to-br from-emerald-50 to-white p-6 shadow md:min-w-[60%]">
               <div class="h-44 w-full overflow-hidden rounded-xl">
-                <img alt="Lisboa verde" class="h-full w-full object-cover" src="/images/Participacion-ciudadana-portada.jpeg"/>
+                <img alt="Lisboa verde" class="h-full w-full object-cover" src="images/Participacion-ciudadana-portada.jpeg"/>
               </div>
               <h3 class="mt-4 text-xl font-semibold">IDAFE</h3>
               <p class="mt-2 text-gray-700">Fortalecemos el conocimiento en cambio climático, dirigido a alumnos de primaria y secundaria.</p>

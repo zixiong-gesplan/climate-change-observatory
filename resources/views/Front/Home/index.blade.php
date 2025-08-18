@@ -28,10 +28,10 @@
                 <p class="text-lg text-left text-gray-500 text-balance my-4 md:text-2xl">El seguimiento de la evolución del cambio climático como eje prioritario dentro del contexto científico de la Macaronesia y África Occidental.</p>
         
                 <div class="flex flex-row gap-2 text-sm">
-                    <a class="bg-green-600 rounded-full px-4 py-2 text-white font-bold" href="/cambio-climatico#projects">
+                    <a class="bg-green-600 rounded-full px-4 py-2 text-white font-bold" href="cambio-climatico#projects">
                         Nuestras iniciativas
                     </a>
-                    <a href="/observatorio" class="text-green-600 font-bold px-4 py-2">
+                    <a href="observatorio" class="text-green-600 font-bold px-4 py-2">
                         Descubre más del Observatorio
                         
                     </a>
@@ -63,7 +63,7 @@
                     Desde el Observatorio queremos asistirte en en la búsqueda de sostenibilidad para luchar contra el cambio climático
                 </p>
                 <div class="flex overflow-x-visible gap-4">
-                    <a href="/huella-carbono" target="_blank" class="text-base font-normal border rounded-full border-blue-300 bg-slate-500 px-4 py-2 flex gap-4 items-center">
+                    <a href="huella-carbono" target="_blank" class="text-base font-normal border rounded-full border-blue-300 bg-slate-500 px-4 py-2 flex gap-4 items-center">
                         Caculadora de CO2 
                         <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" viewBox="0 0 24 24" fill="none">
                             <g id="Interface / External_Link">
@@ -78,7 +78,7 @@
     </main>
     <section class="bg-slate-50 p-4 flex flex-col md:flex-row md:items-center gap-8">
         <div class="w-full md:w-1/2">
-            <img src="/images/partners.png" alt="" srcset="" class="w-full">
+            <img src="images/partners.png" alt="" srcset="" class="w-full">
         </div>
         <div  class="w-full md:w-1/2">
             <p class="font-bold mt-4 text-lg">
@@ -92,7 +92,7 @@
 
     <section class="bg-green-800 text-white font-bold py-8 px-6 flex flex-col md:flex-row md:items-center gap-8 ">
         <div class="w-full md:w-1/2 flex flex-row items-center">
-            <img src="/images/climate_change.png" alt="" class="shadow-white filter drop-shadow-lg max-h-96 mx-auto">
+            <img src="images/climate_change.png" alt="" class="shadow-white filter drop-shadow-lg max-h-96 mx-auto">
         </div>
         <div class="w-full md:w-1/2">
             <h1 class="text-4xl mb-8">
@@ -101,7 +101,7 @@
             <p class="py-2 text-lg">
                 Aunque estos cambios pueden ocurrir de manera natural debido a factores como erupciones volcánicas y variaciones en la radiación solar, en la actualidad el término se usa principalmente para referirse al calentamiento global causado por la actividad humana, en concreto por la combustión de combustibles fósiles. Estas variaciones climáticas se están intensificando y repercuten sobre todo ser vivo en el planeta 
             </p>
-            <a href="/cambio-climatico" class="text-green-600 font-bold bg-white rounded-full px-4 py-1 mt-2">
+            <a href="cambio-climatico" class="text-green-600 font-bold bg-white rounded-full px-4 py-1 mt-2">
                 Más información
             </a>
         </div>

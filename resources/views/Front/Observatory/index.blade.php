@@ -14,7 +14,7 @@
         <section class="grid grid-cols-1 lg:grid-cols-2 gap-4">
             <div class="grid grid-cols-2 gap-4">
                 <x-ImageZoom 
-                    src="/images/observatorio_v_1.png"
+                    src="images/observatorio_v_1.png"
                     class="w-full h-full object-cover "
                 />
                 <div class="flex flex-col gap-4">
@@ -51,7 +51,7 @@
             </div>
             <div class="w-full">
                 <x-ImageZoom 
-                    src="/images/observatorio_2.png"
+                    src="images/observatorio_2.png"
                     class="w-full aspect-square object-cover"
                 />
             </div>
@@ -82,7 +82,7 @@
             <div class="flex gap-4 flex-col lg:flex-row">
                 <div class="w-2/3">
                     <x-ImageZoom 
-                        src="/images/acidificacion_portada.jpeg" 
+                        src="images/acidificacion_portada.jpeg" 
                         class="w-full h-full duration-500 ease-in-out hover:scale-125 cursor-pointer rounded-lg object-cover"
                     />
                 </div>

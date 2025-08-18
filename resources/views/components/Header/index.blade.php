@@ -1,7 +1,7 @@
 <nav class="sticky top-0 z-10 bg-white border-gray-200 dark:bg-gray-900 drop-shadow-md" role="navigation">
 
 	<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2 px-4">
-		<a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
+		<a href="/public/" class="flex items-center space-x-3 rtl:space-x-reverse">
 			<!-- <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" /> -->
 		</a>
 		<x-Header.langs/>
@@ -28,7 +28,7 @@
             <ul>
                 <li>
                     <x-Header.dropdown-menu-link
-                        href="/huella-carbono"
+                        hhref="uella-carbono"
                         title="Huella de Carbono"
                         subtitle="Calcula el impacto de tu huella de carbono."
                     />
