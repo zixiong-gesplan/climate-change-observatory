@@ -28,7 +28,7 @@
 
 <section class="w-full h-[520px] flex justify-center">
     <video class="w-full h-full object-cover mx-auto rounded-xl absolute" autoplay muted id="video">
-        <source src="/images/mitigacion.mp4" type="video/mp4">
+        <source src="images/mitigacion.mp4" type="video/mp4">
     </video>
     <div id="main-text-video" class="w-full bg-black bg-opacity-30">
         <div class="relative z-10 flex h-full items-center mx-auto">

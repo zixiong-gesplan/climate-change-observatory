@@ -8,14 +8,14 @@
 
             <x-projects.card 
                 :href="'https://proyectoplanclimac2.org/'"
-                :image="'/images/PLANCLIMAC2.png'"
+                :image="'images/PLANCLIMAC2.png'"
                 :title="'PLANCLIMAC2 (1/MAC/2/2.4/0006)'"
                 :description="'Desarrollamos y monitorizamos actuaciones coordiandas en la región de la macaronesia en matera de riesgos y amenazas del cambio climatico.'"
             />
 
             <x-projects.card
                 :href="'https://proyectoimplacost.org/'"
-                :image="'/images/IMPLACOST.png'"
+                :image="'images/IMPLACOST.png'"
                 :title="'IMPLACOST (1/MAC/2/2.4/0009)'"
                 :description="'Evaluamos los impactos ambientales en zonas costeras y litorales por efecto del cambio climático.'"
             />

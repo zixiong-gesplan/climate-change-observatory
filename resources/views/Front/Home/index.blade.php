@@ -178,13 +178,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="/images/swiper1.jpg" class="rounded-lg drop-shadow-lg w-full aspect-video"/>
+                            <img src="images/swiper1.jpg" class="rounded-lg drop-shadow-lg w-full aspect-video"/>
                         </div>
                         <div class="swiper-slide">
-                            <img src="/images/swiper2.jpg" class="rounded-lg drop-shadow-lg w-full aspect-video"/>
+                            <img src="images/swiper2.jpg" class="rounded-lg drop-shadow-lg w-full aspect-video"/>
                         </div>
                         <div class="swiper-slide">
-                            <img src="/images/swiper3.jpg" class="rounded-lg drop-shadow-lg w-full aspect-video"/>
+                            <img src="images/swiper3.jpg" class="rounded-lg drop-shadow-lg w-full aspect-video"/>
                         </div>
                     </div>
                 </div> 
@@ -215,7 +215,7 @@ document.addEventListener("DOMContentLoaded", () => {
     </main>
     <section class="bg-slate-50 p-4 flex flex-col md:flex-row md:items-center gap-8">
         <div class="w-full md:w-1/2">
-            <img src="/images/partners.png" alt="" srcset="" class="w-full">
+            <img src="images/partners.png" alt="" srcset="" class="w-full">
         </div>
         <div  class="w-full md:w-1/2">
             <p class="font-bold mt-4 text-lg">
@@ -229,7 +229,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     <section class="bg-green-800 text-white font-bold py-8 px-6 flex flex-col md:flex-row md:items-center gap-8 ">
         <div class="w-full md:w-1/2 flex flex-row items-center">
-            <img src="/images/climate_change.png" alt="" class="shadow-white filter drop-shadow-lg max-h-96 mx-auto">
+            <img src="images/climate_change.png" alt="" class="shadow-white filter drop-shadow-lg max-h-96 mx-auto">
         </div>
         <div class="w-full md:w-1/2">
             <h1 class="text-4xl mb-8">
