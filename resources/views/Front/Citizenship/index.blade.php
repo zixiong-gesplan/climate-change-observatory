@@ -3,7 +3,7 @@
 @section('content')
 <main class="w-full">
     <section class="w-10/12 mx-auto p-4 m-4 min-h-80 flex flex-col lg:flex-row justify-center lg:justify-start lg:items-center h-96 relative box-content	">
-        <img src="images/Participacion-ciudadana-portada.jpeg" class="object-center size-full rounded-3xl object-cover"/>  
+        <img src="/public/images/Participacion-ciudadana-portada.jpeg" class="object-center size-full rounded-3xl object-cover"/>  
         <h1 class=" w-full text-2xl lg:text-4xl font-bold absolute ps-4 lg:ps-0 text-white text-balance text-center box-content	">
             Participación ciudadana
         </h1>
