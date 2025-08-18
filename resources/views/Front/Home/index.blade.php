@@ -2,7 +2,7 @@
 
 {{-- @section('content')
     <section class="relative w-full h-[1000px] md:h-[1200px] flex justify-center items-center overflow-hidden">
-        <img src="/public/images/sky.png" 
+        <img src="/images/sky.png" 
             alt="sky"
             class="absolute top-0 left-0 w-full h-full object-cover pointer-events-none scale-125 saturate-150"
             id="sky"
@@ -13,14 +13,14 @@
             id="title"
         >Observatorio de cambio climático de la <span>Macaronesia</span></h1>
         
-        <img src="/public/images/bg-1.png" 
+        <img src="/images/bg-1.png" 
             alt="mountains-1"
             class="absolute -top-[160px] md:-top-[150px] left-0 w-full h-full object-cover pointer-events-none drop-shadow-[0_-30px_16px_rgba(0,0,0,0.50)] blur-sm"
             id="mountains-1"
             loading="lazy"
         >
         
-        <img src="/public/images/bg-2.png" 
+        <img src="/images/bg-2.png" 
             alt="mountains-2"
             class="absolute left-0 w-full h-full object-cover pointer-events-none drop-shadow-[0_-60px_35px_rgba(0,0,0,0.50)] blur-sm"
             id="mountains-2"
@@ -28,14 +28,14 @@
             loading="lazy"
         >
         
-        <img src="/public/images/water.png" 
+        <img src="/images/water.png" 
             alt="water"
             class="absolute left-0 w-full h-full object-cover pointer-events-none drop-shadow-[0_-30px_35px_rgba(167,243,208,0.25)] blur-sm"
             id="water"
             style="top:-160px"
             loading="lazy"
         >
-        <img src="/public/images/grainy.png"
+        <img src="/images/grainy.png"
             loading="lazy"
         >
     </section>
@@ -178,13 +178,13 @@ document.addEventListener("DOMContentLoaded", () => {
                 <div class="swiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <img src="/public/images/swiper1.jpg" class="rounded-lg drop-shadow-lg w-full aspect-video"/>
+                            <img src="/images/swiper1.jpg" class="rounded-lg drop-shadow-lg w-full aspect-video"/>
                         </div>
                         <div class="swiper-slide">
-                            <img src="/public/images/swiper2.jpg" class="rounded-lg drop-shadow-lg w-full aspect-video"/>
+                            <img src="/images/swiper2.jpg" class="rounded-lg drop-shadow-lg w-full aspect-video"/>
                         </div>
                         <div class="swiper-slide">
-                            <img src="/public/images/swiper3.jpg" class="rounded-lg drop-shadow-lg w-full aspect-video"/>
+                            <img src="/images/swiper3.jpg" class="rounded-lg drop-shadow-lg w-full aspect-video"/>
                         </div>
                     </div>
                 </div> 
@@ -215,7 +215,7 @@ document.addEventListener("DOMContentLoaded", () => {
     </main>
     <section class="bg-slate-50 p-4 flex flex-col md:flex-row md:items-center gap-8">
         <div class="w-full md:w-1/2">
-            <img src="/public/images/partners.png" alt="" srcset="" class="w-full">
+            <img src="/images/partners.png" alt="" srcset="" class="w-full">
         </div>
         <div  class="w-full md:w-1/2">
             <p class="font-bold mt-4 text-lg">
@@ -229,7 +229,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     <section class="bg-green-800 text-white font-bold py-8 px-6 flex flex-col md:flex-row md:items-center gap-8 ">
         <div class="w-full md:w-1/2 flex flex-row items-center">
-            <img src="/public/images/climate_change.png" alt="" class="shadow-white filter drop-shadow-lg max-h-96 mx-auto">
+            <img src="/images/climate_change.png" alt="" class="shadow-white filter drop-shadow-lg max-h-96 mx-auto">
         </div>
         <div class="w-full md:w-1/2">
             <h1 class="text-4xl mb-8">
