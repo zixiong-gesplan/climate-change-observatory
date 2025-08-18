@@ -2,7 +2,7 @@
 
 	<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2 px-4">
 		<a href="/public/" class="flex items-center space-x-3 rtl:space-x-reverse">
-			<!-- <img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" /> -->
+			<img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
 		</a>
 		<x-Header.langs/>
 		<div class="hidden items-center justify-between w-full md:flex md:w-auto md:order-1  flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700" id="navbar-language">
@@ -28,7 +28,7 @@
             <ul>
                 <li>
                     <x-Header.dropdown-menu-link
-                        href="huella-carbono"
+                        href="/public/huella-carbono"
                         title="Huella de Carbono"
                         subtitle="Calcula el impacto de tu huella de carbono."
                     />
@@ -59,7 +59,7 @@
                 <li>
                     <a href="#" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 text-red-500">
                         <div class="font-semibold">Informes de Coyuntura Ambiental</div>
-                        <span class="text-sm text-gray-500 dark:text-gray-400">Un pedazo de informe que hace un gran equipo.</span>
+                        <span class="text-sm text-gray-500 dark:text-gray-400">Informe anual sobre el Cambio Climático en Canarias.</span>
                     </a>
                 </li>
                 <li>
