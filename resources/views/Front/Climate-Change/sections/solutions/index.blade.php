@@ -1,6 +1,7 @@
-<section id="solutions" class="w-full py-12 md:py-24 lg:py-32 bg-green-50 relative overflow-hidden -z-10">
-    <div class="w-full px-4 md:px-6 relative -z-10"">
-        <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center">
+<section id="solutions" class="w-full py-12 md:py-24 lg:py-32 bg-green-300 relative overflow-hidden -z-10">
+    <div class="absolute inset-0 bg-fixed bg-[url('/images/climate_change.png')] bg-cover bg-center opacity-20"></div>
+    <div class="w-full px-4 md:px-6 relative ">
+        <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center text-white">
             Soluciones Sostenibles
         </h2>
         <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">

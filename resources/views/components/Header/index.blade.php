@@ -1,13 +1,11 @@
-<nav class="sticky top-0 z-10 bg-white border-gray-200 dark:bg-gray-900" role="navigation">
-    <div class="w-full max-w-screen-xl flex flex-wrap items-center justify-between mx-auto border-b-2 border-blue-800">
-        <img src="https://interregmac.org/wp-content/uploads/2023/07/Group-9.jpg" class="w-1/4 mx-auto"/>
-    </div>
-	<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+<nav class="sticky top-0 z-10 bg-white border-gray-200 dark:bg-gray-900 drop-shadow-md" role="navigation">
+
+	<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2 px-4">
 		<a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
 			<img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
 		</a>
 		<x-Header.langs/>
-		<div class="items-center justify-between w-full md:flex md:w-auto md:order-1 flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700" id="navbar-language">
+		<div class="hidden items-center justify-between w-full md:flex md:w-auto md:order-1  flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700" id="navbar-language">
             <x-Header.link link="/cambio-climatico" label="El cambio climatico" current="current"/>
             <x-Header.link link="/observatorio" label="El observatorio" />
             <x-Header.link link="/mitigacion" label="Mitigación" />
@@ -25,8 +23,7 @@
             <x-Header.link link="/gobernanza" label="Gobernanza" />
 		</div>
 	</div>
-
-	<div id="menu-dropdown" class="hidden absolute w-full z-20 shadow-xs bg-gray-50 md:bg-white dark:bg-gray-800">
+	<div id="menu-dropdown" class="hidden absolute w-full z-20 shadow-xs bg-gray-50 md:bg-white dark:bg-gray-800 border-t-2 border-blue-800">
         <div class="grid max-w-screen-xl px-4 py-5 mx-auto text-gray-900 dark:text-white sm:grid-cols-2 md:px-6">
             <ul>
                 <li>
@@ -75,5 +72,7 @@
             </ul>
         </div>
     </div>
-
+    <div class="w-full max-w-screen-xl flex flex-wrap items-center justify-between mx-auto border-t-2 border-blue-800">
+        <img src="https://interregmac.org/wp-content/uploads/2023/07/Group-9.jpg" class="w-4/5 md:w-1/2 lg:w-1/3 mx-auto"/>
+    </div>
 </nav>

@@ -1,8 +1,8 @@
 
-<section id="about" class="w-full py-12 md:py-24 lg:py-32 bg-green-50 relative overflow-hidden -z-10">
-    <div class="absolute inset-0 bg-fixed bg-[url('/images/placeholder.svg?height=1080&width=1920')] bg-cover bg-center opacity-20"></div>
+<section id="about" class="w-full py-12 md:py-24 lg:py-32 bg-green-300 relative overflow-hidden -z-10">
+    <div class="absolute inset-0 bg-fixed bg-[url('/images/climate_change.png')] bg-cover bg-center opacity-20"></div>
     <div class="container px-4 md:px-6 relative z-10 justify-center m-auto">
-        <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center">
+        <h2 class="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center text-white">
             Entendiendo el Cambio Climático
         </h2>
         <div class="grid gap-10 sm:grid-cols-2 lg:grid-cols-4">
@@ -19,7 +19,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-droplets h-12 w-12 text-blue-500"><path d="M7 16.3c2.2 0 4-1.83 4-4.05 0-1.16-.57-2.26-1.71-3.19S7.29 6.75 7 5.3c-.29 1.45-1.14 2.84-2.29 3.76S3 11.1 3 12.25c0 2.22 1.8 4.05 4 4.05z"></path><path d="M12.56 6.6A10.97 10.97 0 0 0 14 3.02c.5 2.5 2 4.9 4 6.5s3 3.5 3 5.5a6.98 6.98 0 0 1-11.91 4.97"></path></svg>
                 <h3 class="text-xl font-bold">Cambios en Precipitaciones</h3>
                 <p class="text-gray-600">
-                    Patrones de lluvia impredecibles afectan la agricultura, los recursos hídricos y aumentan el riesgo de inundaciones y sequías.
+                    Los patrones de lluvia impredecibles afectan a la agricultura y a la disponibilidad de recursos hídricos, aumentando además los riesgos asociados a inundaciones y sequías
                 </p>
             </x-understand.card>
             <x-understand.card parallax=0.05>
@@ -33,7 +33,7 @@
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-waves h-12 w-12 text-blue-700"><path d="M2 6c.6.5 1.2 1 2.5 1C7 7 7 5 9.5 5c2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path><path d="M2 12c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path><path d="M2 18c.6.5 1.2 1 2.5 1 2.5 0 2.5-2 5-2 2.6 0 2.4 2 5 2 2.5 0 2.5-2 5-2 1.3 0 1.9.5 2.5 1"></path></svg>
                 <h3 class="text-xl font-bold">Aumento del Nivel del Mar</h3>
                 <p class="text-gray-600">
-                    El derretimiento de los glaciares y la expansión térmica de los océanos amenazan las zonas costeras y las islas.
+                El derretimiento de los glaciares y la expansión térmica de los océanos amenazan las zonas costeras.
                 </p>
             </x-understand.card>
         </div>

@@ -11,7 +11,7 @@
             </div>
             <div class="flex flex-col lg:flex-row items-center gap-10">
                 <div class="lg:w-1/2">
-                    <p class="mb-5">Bienvenidos a nuestra página de Gobernanza Climática. Nuestra misión es liderar las políticas para mitigar el impacto del cambio climático, promoviendo soluciones sostenibles y colaborativas.</p>
+                    <p class="mb-5 text-lg">Nuestra misión es liderar las políticas para mitigar el impacto del cambio climático, promoviendo soluciones sostenibles y colaborativas.</p>
                     <p class="">Trabajamos con gobiernos, organizaciones internacionales y sociedad civil para desarrollar estrategias efectivas contra el cambio climático.</p>
                 </div>
                 <div class="lg:w-1/2">
