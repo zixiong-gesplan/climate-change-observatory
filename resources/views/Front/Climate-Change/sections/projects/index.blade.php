@@ -10,7 +10,7 @@
                 :href="'https://proyectoplanclimac2.org/'"
                 :image="'images/PLANCLIMAC2.png'"
                 :title="'PLANCLIMAC2 (1/MAC/2/2.4/0006)'"
-                :description="'Desarrollamos y monitorizamos actuaciones coordiandas en la región de la macaronesia en matera de riesgos y amenazas del cambio climatico.'"
+                :description="'Desarrollamos y monitorizamos actuaciones coordiandas en la región de la macaronesia en matera de riesgos y amenazas del cambio climático.'"
             />
 
             <x-projects.card

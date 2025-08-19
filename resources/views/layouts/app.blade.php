@@ -57,6 +57,8 @@
             const swiper = new Swiper('.swiper', {
                 // Optional parameters
                 direction: 'horizontal',
+                spped: 1000,
+                spaceBetween: 500,
                 loop: true,
                 autoplay:{
                     deplay: 2000

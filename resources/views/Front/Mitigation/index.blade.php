@@ -121,14 +121,6 @@
               <h3 class="mt-4 text-xl font-semibold">REDPROMAR</h3>
               <p class="mt-2 text-gray-700">Red de transporte público y carriles bici de alta capacidad.</p>
             </article> -->
-            <!-- Slide 3 -->
-            <!-- <article class="carousel-slide min-w-full rounded-2xl bg-gradient-to-br from-emerald-50 to-white p-6 shadow md:min-w-[60%]">
-              <div class="h-44 w-full overflow-hidden rounded-xl">
-                <img alt="RedVigia" class="mx-auto h-full object-fit" src="/images/Red_vigia.png"/>
-              </div>
-              <h3 class="mt-4 text-xl font-semibold">RedVigia</h3>
-              <p class="mt-2 text-gray-700">Red Canaria de Vigilancia Sanitaria de la Fauna Silvestre.</p>
-            </article> -->
           </div>
 
           <!-- Controls -->

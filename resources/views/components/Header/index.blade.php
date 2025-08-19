@@ -6,7 +6,7 @@
 		</a>
 		<x-Header.langs/>
 		<div class="hidden items-center justify-between w-full md:flex md:w-auto md:order-1  flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700" id="navbar-language">
-            <x-Header.link link="/cambio-climatico" label="El cambio climatico" current="current"/>
+            <x-Header.link link="/cambio-climatico" label="El cambio climático" current="current"/>
             <x-Header.link link="/observatorio" label="El observatorio" />
             <x-Header.link link="/mitigacion" label="Mitigación" />
             <button 

@@ -16,21 +16,24 @@
   </section>
 
   <!-- Sección 1: Gobernanza Climática -->
-  <section class="py-16 px-6">
-    <div class="max-w-3xl mx-auto text-center">
-      <h2 class="text-3xl font-bold text-green-600 fade-in-up">Gobernanza Climática</h2>
-      <p class="mt-4 text-gray-700 fade-in-up" style="animation-delay:0.3s">
-        La gobernanza climática es una manera de gestión participativa donde la información fluye, las decisiones son claras y el progreso se mide en tiempo real.
-      </p>
-    </div>
-    <div class="mt-10 grid gap-6 sm:grid-cols-2">
-      <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 fade-in-up">
-        <h3 class="text-xl font-semibold text-green-600">Decisiones con datos</h3>
-        <p class="mt-2 text-gray-600">Seguimiento abierto de emisiones, inversiones verdes y resultados visibles para todos.</p>
+
+  <section class=" bg-[url(/images/gobernanza.png)]">
+    <div class="bg-slate-200 bg-opacity-80 py-16 px-6">
+      <div class="max-w-3xl mx-auto text-center ">
+        <h2 class="text-3xl font-bold text-green-600 fade-in-up drop-shadow-xl">Gobernanza Climática</h2>
+        <p class="mt-4 text-gray-900 fade-in-up drop-shadow-xl font-bold" style="animation-delay:0.3s">
+          La gobernanza climática es una manera de gestión participativa donde la información fluye, las decisiones son claras y el progreso se mide en tiempo real.
+        </p>
       </div>
-      <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 fade-in-up" style="animation-delay:0.3s">
-        <h3 class="text-xl font-semibold text-green-600">Acción coordinada</h3>
-        <p class="mt-2 text-gray-600">Ciudadanía, empresas, organizaciones y gobiernos trabajando juntos con objetivos claros.</p>
+      <div class="mt-10 grid gap-6 sm:grid-cols-2">
+        <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 fade-in-up">
+          <h3 class="text-xl font-semibold text-green-600">Decisiones con datos</h3>
+          <p class="mt-2 text-gray-600">Seguimiento abierto de emisiones, inversiones verdes y resultados visibles para todos.</p>
+        </div>
+        <div class="bg-white rounded-2xl p-6 shadow-md hover:shadow-lg transform hover:-translate-y-1 transition-all duration-300 fade-in-up" style="animation-delay:0.3s">
+          <h3 class="text-xl font-semibold text-green-600">Acción coordinada</h3>
+          <p class="mt-2 text-gray-600">Ciudadanía, empresas, organizaciones y gobiernos trabajando juntos con objetivos claros.</p>
+        </div>
       </div>
     </div>
   </section>
