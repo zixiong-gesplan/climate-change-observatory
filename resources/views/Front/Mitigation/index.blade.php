@@ -87,8 +87,8 @@
               </div>
               <h3 class="text-lg font-semibold">Consumo responsable</h3>
             </div>
-            <p class="mt-3 text-sm text-white/80">Alimentación sostenible y economía circular.</p>
-            <img alt="alimentos frescos" class="mt-4 h-32 w-full rounded-xl object-cover" src="https://images.unsplash.com/photo-1542834369-f10ebf06d3cb?q=80&w=1200&auto=format&fit=crop"/>
+            <p class="mt-3 text-sm text-green-200/80">Alimentación sostenible y economía circular.</p>
+            <img alt="alimentos frescos" class="mt-4 h-32 w-full rounded-xl object-cover" src="https://static.vecteezy.com/system/resources/previews/002/055/448/large_2x/selection-of-fresh-foods-free-photo.jpg"/>
           </article>
         </div>
       </div>
@@ -108,7 +108,7 @@
             <!-- Slide 1 -->
             <article class="carousel-slide min-w-full rounded-2xl bg-gradient-to-br from-emerald-50 to-white p-6 shadow md:min-w-[60%]">
               <div class="h-44 w-full overflow-hidden rounded-xl">
-                <img alt="Lisboa verde" class="h-full w-full object-cover" src="images/Participacion-ciudadana-portada.jpeg"/>
+                <img alt="IDAFE" class="h-full w-full object-cover" src="images/Participacion-ciudadana-portada.jpeg"/>
               </div>
               <h3 class="mt-4 text-xl font-semibold">IDAFE</h3>
               <p class="mt-2 text-gray-700">Fortalecemos el conocimiento en cambio climático, dirigido a alumnos de primaria y secundaria.</p>
@@ -116,7 +116,7 @@
             <!-- Slide 2 -->
             <article class="carousel-slide min-w-full rounded-2xl bg-gradient-to-br from-emerald-50 to-white p-6 shadow md:min-w-[60%]">
               <div class="h-44 w-full overflow-hidden rounded-xl">
-                <img alt="Oporto movilidad" class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1517668808822-9ebb02f2bfb0?q=80&w=1200&auto=format&fit=crop"/>
+                <img alt="RedPromar" class="h-full w-full object-cover" src="https://www.gobiernodecanarias.org/cmsgob2/export/sites/economia/ocea/galeria/proyectos/RED-PROMAR.png"/>
               </div>
               <h3 class="mt-4 text-xl font-semibold">REDPROMAR</h3>
               <p class="mt-2 text-gray-700">Red de transporte público y carriles bici de alta capacidad.</p>
@@ -124,10 +124,10 @@
             <!-- Slide 3 -->
             <article class="carousel-slide min-w-full rounded-2xl bg-gradient-to-br from-emerald-50 to-white p-6 shadow md:min-w-[60%]">
               <div class="h-44 w-full overflow-hidden rounded-xl">
-                <img alt="Agricultura regenerativa" class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=1200&auto=format&fit=crop"/>
+                <img alt="RedVigia" class="mx-auto h-full object-fit" src="/images/Red_vigia.png"/>
               </div>
-              <h3 class="mt-4 text-xl font-semibold">REDEXOS</h3>
-              <p class="mt-2 text-gray-700">Prácticas regenerativas que reducen emisiones y mejoran suelos.</p>
+              <h3 class="mt-4 text-xl font-semibold">RedVigia</h3>
+              <p class="mt-2 text-gray-700">Red Canaria de Vigilancia Sanitaria de la Fauna Silvestre.</p>
             </article>
           </div>
 
