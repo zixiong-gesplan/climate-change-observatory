@@ -46,9 +46,9 @@ Route::get('/mitigacion', function () {
     return view('Front.Mitigation.index',  ['data' => $data]);
 });
 
-Route::get('/participacion-ciudadana', function () {
-    return view('Front.Citizenship.index');
-});
+// Route::get('/participacion-ciudadana', function () {
+//     return view('Front.Citizenship.index');
+// });
 
 Route::get('/gobernanza', function () {
     return view('Front.Governance.index');

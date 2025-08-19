@@ -26,16 +26,16 @@
     }
   </style>
 
-<section class="w-full h-[520px] flex justify-center">
+<section class="w-full max-h-dvh h-screen flex justify-center">
     <video class="w-full h-full object-cover mx-auto rounded-xl absolute" autoplay muted id="video">
         <source src="images/mitigacion.mp4" type="video/mp4">
     </video>
-    <div id="main-text-video" class="w-full bg-black bg-opacity-30">
+    <div id="main-text-video" class="w-full bg-black bg-opacity-60">
         <div class="relative z-10 flex h-full items-center mx-auto">
             <div class="mx-auto wf-max px-4">
                 <div class="max-w-2xl">
-                    <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl text-green-600">Juntos por un futuro sostenible</h1>
-                    <p class="mt-4 max-w-xl text-white/90 text-emerald-800">Acciones y soluciones para mitigar el cambio climático desde lo local hasta lo global.</p>
+                    <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl text-green-600 drop-shadow-lg">Juntos por un futuro sostenible</h1>
+                    <p class="mt-4 max-w-xl text-white/90 text-emerald-800 drop-shadow-lg">Acciones y soluciones para mitigar el cambio climático desde lo local hasta lo global.</p>
                     <div class="mt-6 flex items-center gap-3">
                         <a href="#soluciones" class="inline-flex items-center rounded-xl bg-white px-5 py-3 font-medium text-green-800 shadow hover:bg-white/90">Conoce cómo actuar</a>
                     </div>
@@ -61,22 +61,10 @@
               <div class="grid size-11 place-items-center rounded-xl bg-emerald-200/20 ring-1 ring-emerald-200/40 glow" aria-hidden="true">
                 <svg class="size-5 text-emerald-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
               </div>
-              <h3 class="text-lg font-semibold">Energía renovable</h3>
+              <h3 class="text-lg font-semibold">Compromiso Climático</h3>
             </div>
-            <p class="mt-3 text-sm text-white/80">Solar y eólica para acelerar la descarbonización.</p>
+            <p class="mt-3 text-sm text-white/80">Compromiso climático en el.</p>
             <img alt="paneles solares" class="mt-4 h-32 w-full rounded-xl object-cover" src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1200&auto=format&fit=crop"/>
-          </article>
-
-          <!-- Movilidad sostenible -->
-          <article class="card-grad rounded-2xl bg-white/5 p-5 backdrop-blur-md ring-1 ring-white/10 transition hover:-translate-y-1 hover:shadow-xl">
-            <div class="flex items-center gap-3">
-              <div class="grid size-11 place-items-center rounded-xl bg-emerald-200/20 ring-1 ring-emerald-200/40" aria-hidden="true">
-                <svg class="size-5 text-emerald-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 16a3 3 0 106 0M13 16a3 3 0 106 0M6 16V9a2 2 0 012-2h6l4 4v5"/></svg>
-              </div>
-              <h3 class="text-lg font-semibold">Movilidad sostenible</h3>
-            </div>
-            <p class="mt-3 text-sm text-white/80">Transporte público, bici y vehículos eléctricos.</p>
-            <img alt="bicicletas en ciudad" class="mt-4 h-32 w-full rounded-xl object-cover" src="https://images.unsplash.com/photo-1520975922284-9d62b2a9a9f1?q=80&w=1200&auto=format&fit=crop"/>
           </article>
 
           <!-- Ciudades verdes -->
@@ -110,8 +98,8 @@
     <section id="historias" class="bg-white text-gray-900 py-20">
       <div class="mx-auto max-w-[1200px] px-4">
         <header class="">
-          <h2 class="text-3xl font-bold">Historias Reales</h2>
-          <p class="mt-2 text-gray-600">Testimonios y proyectos que ya están cambiando realidades.</p>
+          <h2 class="text-3xl font-bold">Actuaciones Reales</h2>
+          <p class="mt-2 text-gray-600">Proyectos que ya están cambiando realidades.</p>
         </header>
 
         <div class="relative mt-10">
@@ -187,45 +175,48 @@
     document.querySelectorAll('.reveal').forEach(el=>io.observe(el));
 
     // Simple, accessible slider with autoplay + swipe
-    function animation(){
-      const track = document.getElementById('sliderTrack');
-      const prev = document.getElementById('prevBtn');
-      const next = document.getElementById('nextBtn');
-      const dots = [document.getElementById('dot1'), document.getElementById('dot2'), document.getElementById('dot3')];
-      const slides = track.children;
-      let idx = 0, intv=null, isHover=false;
+    document.addEventListener("DOMContentLoaded", () => {
+      function animation(){
+        const track = document.getElementById('sliderTrack');
+        const prev = document.getElementById('prevBtn');
+        const next = document.getElementById('nextBtn');
+        const dots = [document.getElementById('dot1'), document.getElementById('dot2'), document.getElementById('dot3')];
+        const slides = track.children;
+        let idx = 0, intv=null, isHover=false;
 
-      function width(){ return slides[0].getBoundingClientRect().width + 24; }
-      function update(){
-        track.scrollTo({ left: idx * width(), behavior: 'smooth' });
-        dots.forEach((d,i)=>{ d.classList.toggle('bg-gray-900', i===idx); d.classList.toggle('bg-gray-300', i!==idx); d.setAttribute('aria-current', i===idx ? 'true':'false'); });
+        function width(){ return slides[0].getBoundingClientRect().width + 24; }
+        function update(){
+          track.scrollTo({ left: idx * width(), behavior: 'smooth' });
+          dots.forEach((d,i)=>{ d.classList.toggle('bg-gray-900', i===idx); d.classList.toggle('bg-gray-300', i!==idx); d.setAttribute('aria-current', i===idx ? 'true':'false'); });
+        }
+        function go(n){ idx = (n + slides.length) % slides.length; update(); }
+
+        // Controls
+        prev.addEventListener('click', ()=>go(idx-1));
+        next.addEventListener('click', ()=>go(idx+1));
+
+        // Autoplay (pause on hover & reduce motion)
+        const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+        function start(){ if(!reduce && !intv) intv = setInterval(()=>{ if(!isHover) go(idx+1); }, 5000); }
+        function stop(){ clearInterval(intv); intv=null; }
+        track.addEventListener('pointerenter', ()=>{isHover=true});
+        track.addEventListener('pointerleave', ()=>{isHover=false});
+        start();
+
+        // Swipe support
+        let startX=0, curX=0, isDown=false;
+        track.addEventListener('pointerdown', e=>{ isDown=true; startX=e.clientX; track.setPointerCapture(e.pointerId); });
+        track.addEventListener('pointermove', e=>{ if(!isDown) return; curX=e.clientX; });
+        track.addEventListener('pointerup', ()=>{ if(!isDown) return; const dx = curX-startX; if(Math.abs(dx)>40){ dx>0 ? go(idx-1) : go(idx+1); } isDown=false; });
+
+        // Keyboard
+        window.addEventListener('keydown', (e)=>{ if(e.key==='ArrowLeft') go(idx-1); if(e.key==='ArrowRight') go(idx+1); });
+
+        // Resize
+        window.addEventListener('resize', update);
+        update();
       }
-      function go(n){ idx = (n + slides.length) % slides.length; update(); }
+      animation();
+    })
 
-      // Controls
-      prev.addEventListener('click', ()=>go(idx-1));
-      next.addEventListener('click', ()=>go(idx+1));
-
-      // Autoplay (pause on hover & reduce motion)
-      const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-      function start(){ if(!reduce && !intv) intv = setInterval(()=>{ if(!isHover) go(idx+1); }, 5000); }
-      function stop(){ clearInterval(intv); intv=null; }
-      track.addEventListener('pointerenter', ()=>{isHover=true});
-      track.addEventListener('pointerleave', ()=>{isHover=false});
-      start();
-
-      // Swipe support
-      let startX=0, curX=0, isDown=false;
-      track.addEventListener('pointerdown', e=>{ isDown=true; startX=e.clientX; track.setPointerCapture(e.pointerId); });
-      track.addEventListener('pointermove', e=>{ if(!isDown) return; curX=e.clientX; });
-      track.addEventListener('pointerup', ()=>{ if(!isDown) return; const dx = curX-startX; if(Math.abs(dx)>40){ dx>0 ? go(idx-1) : go(idx+1); } isDown=false; });
-
-      // Keyboard
-      window.addEventListener('keydown', (e)=>{ if(e.key==='ArrowLeft') go(idx-1); if(e.key==='ArrowRight') go(idx+1); });
-
-      // Resize
-      window.addEventListener('resize', update);
-      update();
-    }
-    animation();
   </script>

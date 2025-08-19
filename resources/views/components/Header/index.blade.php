@@ -19,7 +19,7 @@
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                 </svg>
             </button>
-            <x-Header.link link="/participacion-ciudadana" label="Participación ciudadana" />
+            <!-- <x-Header.link link="/participacion-ciudadana" label="Participación ciudadana" /> -->
             <x-Header.link link="/gobernanza" label="Gobernanza" />
 		</div>
 	</div>
@@ -33,42 +33,42 @@
                         subtitle="Calcula el impacto de tu huella de carbono."
                     />
                 </li>
-                <li>
+                <!-- <li>
                     <x-Header.dropdown-menu-link
                         href="#"
                         title="Escenarios Climáticos"
                         subtitle="Predicciones climaticas en el periodo de 50 y 100 años."
                     />
-                </li>
-                <li>
+                </li> -->
+                <!-- <li>
                     <x-Header.dropdown-menu-link
                         href="#"
                         title="Atlas Macaronésico"
                         subtitle="Aplicación que integra nuestro trabajo."
                     />
-                </li>
+                </li> -->
             </ul>
             <ul>
-                <li>
+                <!-- <li>
                     <x-Header.dropdown-menu-link
                         href="#"
                         title="IDAFE"
                         subtitle="Concienciación del Cambio Climático en Colegios e Institutos."
                     />
-                </li>
+                </li> -->
                 <li>
-                    <a href="#" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 text-red-500">
+                    <a href="https://www.gobiernodecanarias.org/cambioclimatico/materias/informes-coyuntura/" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 text-red-500">
                         <div class="font-semibold">Informes de Coyuntura Ambiental</div>
-                        <span class="text-sm text-gray-500 dark:text-gray-400">Informe anual sobre el Cambio Climático en Canarias.</span>
+                        <span class="text-sm text-gray-500 dark:text-gray-400">Analisis anual sobre el Cambio Climático en Canarias.</span>
                     </a>
                 </li>
-                <li>
+                <!-- <li>
                     <x-Header.dropdown-menu-link
                         href="#"
                         title="Más Iniciativas"
                         subtitle="Otras iniciativas para el cambio climático."
                     />
-                </li>
+                </li> -->
             </ul>
         </div>
     </div>
