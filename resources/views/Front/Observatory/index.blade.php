@@ -72,22 +72,22 @@
         </div>
     </section>
     <section class="w-full">
-        <div class="w-11/12 grid grid-col-3 gap-2 mx-auto ">
-            <div class="flex gap-4 flex-col lg:flex-row my-12">
-                <div class="col-span-2">
+        <div class="w-11/12 gap-2 mx-auto">
+            <div class="flex gap-4 flex-col lg:flex-row my-12 ">
+                <div class="w-full md:w-2/3">
                     <x-ImageZoom 
                         src="images/acidificacion_portada.jpeg" 
                         class="w-full h-full duration-500 ease-in-out hover:scale-125 cursor-pointer rounded-lg object-cover"
                     />
                 </div>
-                <div class="rounded-lg bg-green-700 p-4 flex flex-col gap-4 col-span-1">
+                <div class="rounded-lg bg-green-700 p-4 flex flex-col gap-4 w-full md:w-1/3">
                     <h1 class="text-4xl text-white">Nuestras metas</h1>
                     <p class="text-white">Buscamos mejorar el entorno en la macaronesia</p>
                     <button class="bg-green-50 text-black rounded-full max-w-48 py-1">Saber más</button>
                 </div>
             </div>
             <div class="flex flex-col lg:flex-row gap-4 mb-12">
-                <div class="rounded-lg bg-green-600 p-4 text-white font-semibold">
+                <div class="rounded-lg bg-green-600 p-4 text-white font-semibold w-full md:w-1/3">
                     <svg class="w-16 h-16" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg" stroke="white"
                             stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
@@ -113,24 +113,24 @@
                         Trabajamos con dedicación para proteger los ecosistemas de la Macaronesia, impulsando acciones que reduzcan el impacto del cambio climático y fomenten la resiliencia de nuestras comunidades costeras e insulares.
                     </p>
                 </div>
-                <div class="rounded-lg bg-green-600 p-4 text-white font-semibold">
-                <svg class="w-16 h-16" viewBox="0 0 24 24" fill="none"
+                <div class="rounded-lg bg-green-600 p-4 text-white font-semibold w-full md:w-1/3">
+                    <svg class="w-16 h-16" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg" stroke="white"
                         stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
                         aria-labelledby="title desc" role="img">
-                    <title id="title">Transparencia y Rigor</title>
-                    <desc id="desc">Documento con líneas visibles, una lupa y una marca de verificación</desc>
+                        <title id="title">Transparencia y Rigor</title>
+                        <desc id="desc">Documento con líneas visibles, una lupa y una marca de verificación</desc>
 
-                    <!-- Documento -->
-                    <rect x="3.5" y="3" width="11" height="15" rx="1.8"/>
-                    <line x1="6" y1="6.5" x2="12" y2="6.5"/>
-                    <line x1="6" y1="9"   x2="12" y2="9"/>
-                    <line x1="6" y1="11.5" x2="12" y2="11.5"/>
-                    <line x1="6" y1="14" x2="10" y2="14"/>
+                        <!-- Documento -->
+                        <rect x="3.5" y="3" width="11" height="15" rx="1.8"/>
+                        <line x1="6" y1="6.5" x2="12" y2="6.5"/>
+                        <line x1="6" y1="9"   x2="12" y2="9"/>
+                        <line x1="6" y1="11.5" x2="12" y2="11.5"/>
+                        <line x1="6" y1="14" x2="10" y2="14"/>
 
-                    <!-- Lupa (inspección/rigor) -->
-                    <circle cx="15.5" cy="15.5" r="3.5"/>
-                    <line x1="18.2" y1="18.2" x2="20.5" y2="20.5"/>
+                        <!-- Lupa (inspección/rigor) -->
+                        <circle cx="15.5" cy="15.5" r="3.5"/>
+                        <line x1="18.2" y1="18.2" x2="20.5" y2="20.5"/>
 
                     <!-- Check dentro de la lupa (verificación transparente) -->
                     </svg>
@@ -142,24 +142,24 @@
                         Basamos nuestro trabajo en datos científicos verificables, compartiendo información clara y precisa para que instituciones, ciudadanía y empresas tomen decisiones informadas frente a los retos climáticos.
                     </p>
                 </div>
-                <div class="rounded-lg bg-green-600 p-4 text-white font-semibold">
+                <div class="rounded-lg bg-green-600 p-4 text-white font-semibold w-full md:w-1/3">
 
-                <svg class="w-16 h-16" viewBox="0 0 24 24" fill="none"
+                    <svg class="w-16 h-16" viewBox="0 0 24 24" fill="none"
                         xmlns="http://www.w3.org/2000/svg" stroke="white"
                         stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"
                         aria-labelledby="title desc" role="img">
-                    <title id="title">Innovación Sostenible</title>
-                    <desc id="desc">Bombilla con una hoja en el interior que simboliza ideas sostenibles</desc>
+                        <title id="title">Innovación Sostenible</title>
+                        <desc id="desc">Bombilla con una hoja en el interior que simboliza ideas sostenibles</desc>
 
-                    <!-- Bombilla -->
-                    <path d="M9 18v1.5c0 .8.7 1.5 1.5 1.5h3c.8 0 1.5-.7 1.5-1.5V18"/>
-                    <path d="M8 14c-1.2-1.4-2-3.2-2-5a6 6 0 1 1 12 0c0 1.8-.8 3.6-2 5"/>
+                        <!-- Bombilla -->
+                        <path d="M9 18v1.5c0 .8.7 1.5 1.5 1.5h3c.8 0 1.5-.7 1.5-1.5V18"/>
+                        <path d="M8 14c-1.2-1.4-2-3.2-2-5a6 6 0 1 1 12 0c0 1.8-.8 3.6-2 5"/>
 
-                    <!-- Hoja interior -->
-                    <path d="M12 9c1.2-1.5 3-2 4-1.2-.5 2-2.5 3.7-4 4.2-1.5-.5-3.5-2.2-4-4.2 1-.8 2.8-.3 4 1.2z"/>
+                        <!-- Hoja interior -->
+                        <path d="M12 9c1.2-1.5 3-2 4-1.2-.5 2-2.5 3.7-4 4.2-1.5-.5-3.5-2.2-4-4.2 1-.8 2.8-.3 4 1.2z"/>
 
-                    <!-- Base de la bombilla -->
-                    <line x1="10" y1="18" x2="14" y2="18"/>
+                        <!-- Base de la bombilla -->
+                        <line x1="10" y1="18" x2="14" y2="18"/>
                     </svg>
 
                     <h1 class="text-2xl my-4">

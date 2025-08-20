@@ -30,7 +30,7 @@
     <video class="w-full h-full object-cover mx-auto rounded-xl absolute" autoplay muted id="video">
         <source src="images/mitigacion.mp4" type="video/mp4">
     </video>
-    <div id="main-text-video" class="w-full bg-black bg-opacity-60">
+    <div id="main-text-video" class="w-full bg-slate-800 bg-opacity-60 rounded-xl absolute h-full">
         <div class="relative z-10 flex h-full items-center mx-auto">
             <div class="mx-auto wf-max px-4">
                 <div class="max-w-2xl">

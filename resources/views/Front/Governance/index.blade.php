@@ -2,22 +2,24 @@
 
 @section('content')
     <!-- Hero principal -->
-    <section class="flex flex-col items-center justify-center min-h-screen px-6 text-center bg-gradient-to-b from-green-600 to-green-500 text-white">
-    <h1 class="text-4xl md:text-6xl font-extrabold leading-tight fade-in-up">
-      Decidimos hoy, <br> cambiamos el clima de mañana
-    </h1>
-    <p class="mt-4 text-lg md:text-xl max-w-xl fade-in-up" style="animation-delay:0.3s">
-      Conectamos ciudadanía, empresas y gobiernos para diseñar políticas climáticas justas, transparentes y con impacto real.
-    </p>
-    <button class="mt-8 bg-white text-green-600 font-semibold px-6 py-3 rounded-full shadow-md hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 fade-in-up" style="animation-delay:0.6s">
-      Danos tu aportación
-    </button>
-    <div class="mt-10 w-32 h-32 bg-white/20 rounded-full float"></div>
+  <section class="bg-[url(/images/gobernanza.png)] bg-cover">
+    <div class="flex flex-col items-center justify-center min-h-screen px-6 text-center bg-slate-800 bg-opacity-60 text-white">
+        <h1 class="text-4xl md:text-6xl font-extrabold leading-tight fade-in-up">
+          Decidimos hoy, <br> cambiamos el clima de mañana
+        </h1>
+        <p class="mt-4 text-lg md:text-xl max-w-xl fade-in-up" style="animation-delay:0.3s">
+          Conectamos ciudadanía, empresas y gobiernos para diseñar políticas climáticas justas, transparentes y con impacto real.
+        </p>
+        <button class="mt-8 bg-white text-green-600 font-semibold px-6 py-3 rounded-full shadow-md hover:bg-gray-100 transform hover:scale-105 transition-all duration-300 fade-in-up" style="animation-delay:0.6s">
+          Danos tu aportación
+        </button>
+    </div>
   </section>
+
 
   <!-- Sección 1: Gobernanza Climática -->
 
-  <section class=" bg-[url(/images/gobernanza.png)] bg-cover min-h-96">
+  <section class="  min-h-96">
     <div class="bg-slate-200 bg-opacity-80 py-16 px-6 h-full">
       <div class="max-w-3xl mx-auto text-center ">
         <h2 class="text-3xl font-bold text-green-600 fade-in-up drop-shadow-xl">Gobernanza Climática</h2>
