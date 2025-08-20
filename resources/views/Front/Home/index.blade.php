@@ -111,9 +111,8 @@
 
     <section class="px-4 flex flex-col md:flex-row gap-4 my-20 md:mx-16">
         <div class="w-full md:w-1/2">
-            <h1 class="text-4xl mb-8 font-bold">
+            <h1 class="text-3xl mb-8 font-bold">
                 Impulsamos la transformación desde todos los ámbitos de gobernanza, conscientes de que el cambio climático es un reto global, complejo y con múltiples implicaciones
-
             </h1>
             <p></p>
         </div>

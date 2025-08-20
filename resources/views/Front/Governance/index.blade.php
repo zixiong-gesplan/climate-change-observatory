@@ -17,8 +17,8 @@
 
   <!-- Sección 1: Gobernanza Climática -->
 
-  <section class=" bg-[url(/images/gobernanza.png)]">
-    <div class="bg-slate-200 bg-opacity-80 py-16 px-6">
+  <section class=" bg-[url(/images/gobernanza.png)] bg-cover min-h-96">
+    <div class="bg-slate-200 bg-opacity-80 py-16 px-6 h-full">
       <div class="max-w-3xl mx-auto text-center ">
         <h2 class="text-3xl font-bold text-green-600 fade-in-up drop-shadow-xl">Gobernanza Climática</h2>
         <p class="mt-4 text-gray-900 fade-in-up drop-shadow-xl font-bold" style="animation-delay:0.3s">
@@ -61,7 +61,56 @@
       </div>
     </div>
   </section>
+    <!-- Historias Reales (Slider) -->
+    <section id="historias" class="bg-white text-gray-900 py-20">
+      <div class="mx-auto max-w-[1200px] px-4">
+        <header class="">
+          <h2 class="text-3xl font-bold">Actuaciones Reales</h2>
+          <p class="mt-2 text-gray-600">Proyectos que ya están cambiando realidades.</p>
+        </header>
 
+        <div class="relative mt-10">
+          <!-- Slider viewport -->
+          <div id="sliderTrack" class="carousel-track flex gap-6 overflow-x-hidden scroll-smooth">
+            <!-- Slide 1 -->
+            <article class="carousel-slide min-w-full rounded-2xl bg-gradient-to-br from-emerald-50 to-white p-6 shadow md:min-w-[60%]">
+              <div class="h-44 w-full overflow-hidden rounded-xl">
+                <img alt="IDAFE" class="h-full w-full object-cover" src="images/Participacion-ciudadana-portada.jpeg"/>
+              </div>
+              <h3 class="mt-4 text-xl font-semibold">IDAFE</h3>
+              <p class="mt-2 text-gray-700">Fortalecemos el conocimiento en cambio climático, dirigido a alumnos de primaria y secundaria.</p>
+            </article>
+            <!-- Slide 2 -->
+            <article class="carousel-slide min-w-full rounded-2xl bg-gradient-to-br from-emerald-50 to-white p-6 shadow md:min-w-[60%]">
+              <div class="h-44 w-full overflow-hidden rounded-xl">
+                <img alt="Plan Formativo Verde" class="h-full object-cover" src="/images/PFVerde.png"/>
+              </div>
+              <h3 class="mt-4 text-xl font-semibold">Plan Formativo Verde</h3>
+              <p class="mt-2 text-gray-700">Red de transporte público y carriles bici de alta capacidad.</p>
+            </article>
+            <!-- Slide 3 -->
+            <article class="carousel-slide min-w-full rounded-2xl bg-gradient-to-br from-emerald-50 to-white p-6 shadow md:min-w-[60%]">
+              <div class="h-44 w-full overflow-hidden rounded-xl">
+                <img alt="Divulgación" class="h-full object-cover" src="/images/Divulgacion.PNG"/>
+              </div>
+              <h3 class="mt-4 text-xl font-semibold">Divulgación de la Ley de Cambio Climático</h3>
+              <p class="mt-2 text-gray-700">Capacitación de técnicos municipales para la Transición Energética y Adapatación al Cambio Climático.</p>
+            </article>
+          </div>
+
+          <!-- Controls -->
+          <div class="mt-6 flex items-center justify-between">
+            <button id="prevBtn" class="rounded-xl border border-gray-300 bg-white px-4 py-2 text-sm shadow hover:bg-gray-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400">Anterior</button>
+            <div class="flex gap-2" aria-label="Paginación del carrusel">
+              <span class="h-2 w-2 rounded-full bg-gray-300" id="dot1"></span>
+              <span class="h-2 w-2 rounded-full bg-gray-300" id="dot2"></span>
+              <span class="h-2 w-2 rounded-full bg-gray-300" id="dot3"></span>
+            </div>
+            <button id="nextBtn" class="rounded-xl border border-gray-300 bg-white px-4 py-2 text-sm shadow hover:bg-gray-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-emerald-400">Siguiente</button>
+          </div>
+        </div>
+      </div>
+    </section>
   <!-- Call to Action final -->
   <section class="py-20 px-6 text-center bg-green-600 text-white">
     <h2 class="text-3xl font-bold fade-in-up">¿Imaginas tu ciudad con mejoras ambientales?</h2>

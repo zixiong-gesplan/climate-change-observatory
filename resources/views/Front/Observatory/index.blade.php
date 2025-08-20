@@ -1,14 +1,14 @@
 @extends('layouts.app')
 
 @section('content')
-<section class="w-full relative -z-10 flex gap-10 overflow-hidden h-48">
-    <figure class="relative w-full overflow-hidden bg-cover bg-no-repeat">
-        <img class=" object-cover absolute" src="/images/Panorama-ITER.jpg" alt="image description" loading="lazy">
-        <figcaption class="w-full h-full bg-green-300 bg-opacity-50 p-4 transition-all text-black absolute duration-300 cursor pointer hover:bg-opacity-0 rounded-lg">
-            <h2 class="text-3xl font-bold w-full text-center h-full flex justify-center items-center text-white">El Observatorio de Cambio Climatico de la Macaronesia</h2>
-        </figcaption>
-    </figure>
-</section>
+    <section class="w-full relative -z-10 flex gap-10 overflow-hidden h-48">
+        <figure class="relative w-full overflow-hidden bg-cover bg-no-repeat">
+            <img class=" object-cover absolute" src="/images/Panorama-ITER.jpg" alt="image description" loading="lazy">
+            <figcaption class="w-full h-full bg-green-300 bg-opacity-50 p-4 transition-all text-black absolute duration-300 cursor pointer hover:bg-opacity-0 rounded-lg">
+                <h2 class="text-3xl font-bold w-full text-center h-full flex justify-center items-center text-white">El Observatorio de Cambio Climatico de la Macaronesia</h2>
+            </figcaption>
+        </figure>
+    </section>
 
     <main class="w-full px-8 mx-auto my-4 flex flex-col gap-4">
         <section class="grid grid-cols-1 lg:grid-cols-2 gap-4 w-full lg:w-11/12 mx-auto">
@@ -23,24 +23,24 @@
                 />
             </div>
             <blockquote class="p-4 border-s-4 border-green-300 bg-green-50 dark:border-green-500 dark:bg-green-800">
-                <p class="text-xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
+                <p class="text-3xl italic font-medium leading-relaxed text-gray-900 dark:text-white">
                     "Somos un ente supraregional que conecta territorios y comunidades a ambos lados del Atlántico. Nuestra área de acción abarca toda la Macaronesia <span class="text-green-600"> —Azores, Madeira, Canarias, Cabo Verde— </span> y se extiende hasta localidades estratégicas en el continente africano. Un espacio único donde confluyen biodiversidad, cultura y oportunidades, y donde trabajamos para impulsar un desarrollo sostenible, integrado y con visión de futuro"
                 </p>
             </blockquote>
         </section>
         <section class="grid grid-cols-1 lg:grid-cols-2 gap-4 h-full w-full lg:w-11/12 mx-auto">
-            <div class="grid grid-rows-1 grid-cols-3 lg:grid-cols-1 lg:grid-rows-3 gap-4">
+            <div class="grid grid-rows-3 gap-4">
                 <div class="w-full bg-green-600 rounded-lg flex flex-col px-8 py-4 gap-2">
-                    <h3 class="text-4xl text-left lg:text-2xl font-bold px-4 py-2 rounded-md bg-white text-green-600 w-full md:w-1/2">Nuestra misión</h3>
-                    <p class="text-white text-2xl md:text-lg font-semibold">Conectamos territorios, unimos personas, impulsamos futuro</p>
+                    <h3 class="text-4xl text-left md:text-3xl font-bold px-4 py-2 rounded-md bg-white text-green-600 w-full md:w-1/2">Nuestra misión</h3>
+                    <p class="text-white text-2xl md:text-2xl font-semibold">Conectamos territorios, unimos personas, impulsamos futuro</p>
                 </div>
                 <div class="w-full bg-green-600 rounded-lg flex flex-col px-8 py-4 gap-2 ">
-                    <h3 class="text-4xl text-left lg:text-2xl font-bold px-4 py-2 rounded-md bg-white text-green-600 w-full md:w-1/2">Nuestro objetivo</h3>
-                    <p class="text-white text-2xl md:text-lg font-semibold">Ser el puente atlántico hacia un desarrollo sostenible y compartido</p>
+                    <h3 class="text-4xl text-left md:text-3xl font-bold px-4 py-2 rounded-md bg-white text-green-600 w-full md:w-1/2">Nuestro objetivo</h3>
+                    <p class="text-white text-2xl md:text-2xl font-semibold">Ser el puente atlántico hacia un desarrollo sostenible y compartido</p>
                 </div>
                 <div class="w-full bg-green-600 rounded-lg flex flex-col px-8 py-4 gap-2 ">
-                    <h3 class="text-4xl text-left lg:text-2xl font-bold px-4 py-2 rounded-md bg-white text-green-600 w-full md:w-1/2">Nuesrta historia</h3>
-                    <p class="text-white text-2xl md:text-lg font-semibold">Un viaje que une culturas, mares y comunidades desde el origen</p>
+                    <h3 class="text-4xl text-left md:text-3xl font-bold px-4 py-2 rounded-md bg-white text-green-600 w-full md:w-1/2">Nuestra historia</h3>
+                    <p class="text-white text-2xl md:text-2xl font-semibold">Un viaje que une culturas, mares y comunidades desde el origen</p>
                 </div>
             </div>
             <div class="w-full">
@@ -55,19 +55,19 @@
         <div class="w-10/12 mx-auto flex gap-4 flex-col lg:flex-row py-8">
             <div class="flex flex-col justify-center items-center w-full md:w-1/2 lg:w-1/4">
                 <h1 class="text-6xl font-bold text-green-300">7</h1>
-                <p class="text-white font-semibold">Regiones</p>
+                <p class="text-white font-semibold text-4xl">Regiones</p>
             </div>
             <div class="flex flex-col justify-center items-center w-full md:w-1/2 lg:w-1/4">
                 <h1 class="text-6xl font-bold text-green-300">16</h1>
-                <p class="text-white font-semibold">Entidades</p>
+                <p class="text-white font-semibold text-4xl">Entidades</p>
             </div>
             <div class="flex flex-col justify-center items-center w-full md:w-1/2 lg:w-1/4">
                 <h1 class="text-6xl font-bold text-green-300">2</h1>
-                <p class="text-white font-semibold">Proyectos</p>
+                <p class="text-white font-semibold text-4xl">Proyectos</p>
             </div>
             <div class="flex flex-col justify-center items-center w-full md:w-1/2 lg:w-1/4">
                 <h1 class="text-6xl font-bold text-green-300">+20</h1>
-                <p class="text-white font-semibold">Años de experiencia</p>
+                <p class="text-white font-semibold text-3xl">Años de experiencia</p>
             </div>
         </div>
     </section>
