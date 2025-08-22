@@ -1,8 +1,9 @@
 <nav class="sticky top-0 z-10 bg-white border-gray-200 dark:bg-gray-900 drop-shadow-md" role="navigation">
 
 	<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto py-2 px-4">
-		<a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-			<img src="https://flowbite.com/docs/images/logo.svg" class="h-8" alt="Flowbite Logo" />
+		<a href="/" class="flex items-center space-x-3 rtl:space-x-reverse font-bold gap-4 text-green-900 dark:text-white hover:border hover:border-green-800 px-4 py-2 rounded-md border border-white">
+			<img src="/images/Logo.png" class="h-8" alt="Flowbite Logo" />
+            Inicio
 		</a>
 		<x-Header.langs/>
 		<div class="hidden items-center justify-between w-full md:flex md:w-auto md:order-1  flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 dark:border-gray-700" id="navbar-language">
@@ -57,7 +58,7 @@
                     />
                 </li> -->
                 <li>
-                    <a href="https://www.gobiernodecanarias.org/cambioclimatico/materias/informes-coyuntura/" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 text-red-500">
+                    <a href="https://www.gobiernodecanarias.org/cambioclimatico/materias/informes-coyuntura/" target="_blank" class="block p-3 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700 text-red-500">
                         <div class="font-semibold">Informes de Coyuntura Ambiental</div>
                         <span class="text-sm text-gray-500 dark:text-gray-400">Analisis anual sobre el Cambio Climático en Canarias.</span>
                     </a>

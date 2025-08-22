@@ -61,9 +61,9 @@
               <div class="grid size-11 place-items-center rounded-xl bg-emerald-200/20 ring-1 ring-emerald-200/40 glow" aria-hidden="true">
                 <svg class="size-5 text-emerald-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/></svg>
               </div>
-              <h3 class="text-lg font-semibold">Compromiso Climático</h3>
+              <h3 class="text-lg font-semibold">Consumo responsable</h3>
             </div>
-            <p class="mt-3 text-sm">Compromiso climático en el.</p>
+            <p class="mt-3 text-sm">Alimentación sostenible, local y bajo criterios de economía circular.</p>
             <img alt="paneles solares" class="mt-4 h-32 w-full rounded-xl object-cover" src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?q=80&w=1200&auto=format&fit=crop"/>
           </article>
 
@@ -73,9 +73,9 @@
               <div class="grid size-11 place-items-center rounded-xl bg-emerald-200/20 ring-1 ring-emerald-200/40" aria-hidden="true">
                 <svg class="size-5 text-emerald-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 13h18M5 21V8l7-5 7 5v13"/></svg>
               </div>
-              <h3 class="text-lg font-semibold">Ciudades verdes</h3>
+              <h3 class="text-lg font-semibold">Movilidad inteligente</h3>
             </div>
-            <p class="mt-3 text-sm">Infraestructura resiliente y refugios climáticos.</p>
+            <p class="mt-3 text-sm">Desplazamientos peatonales, no motorizados o de transporte colectivo para servicios esenciales.</p>
             <img alt="parque urbano" class="mt-4 h-32 w-full rounded-xl object-cover" src="https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1200&auto=format&fit=crop"/>
           </article>
 
@@ -85,9 +85,46 @@
               <div class="grid size-11 place-items-center rounded-xl bg-emerald-200/20 ring-1 ring-emerald-200/40" aria-hidden="true">
                 <svg class="size-5 text-emerald-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4v6a8 8 0 0016 0V4M8 8h8"/></svg>
               </div>
-              <h3 class="text-lg font-semibold">Consumo responsable</h3>
+              <h3 class="text-lg font-semibold">Energía verde</h3>
             </div>
-            <p class="mt-3 text-sm">Alimentación sostenible y economía circular.</p>
+            <p class="mt-3 text-sm">Descentralización y democratización de la energía con el autoconsumo colectivo como herramienta clave.</p>
+            <img alt="alimentos frescos" class="mt-4 h-32 w-full rounded-xl object-cover" src="https://static.vecteezy.com/system/resources/previews/002/055/448/large_2x/selection-of-fresh-foods-free-photo.jpg"/>
+          </article>
+
+          
+          <!-- Consumo responsable -->
+          <article class="card-grad rounded-2xl bg-white/5 p-5 backdrop-blur-md ring-1 ring-white/10 transition hover:-translate-y-1 hover:shadow-xl">
+            <div class="flex items-center gap-3">
+              <div class="grid size-11 place-items-center rounded-xl bg-emerald-200/20 ring-1 ring-emerald-200/40" aria-hidden="true">
+                <svg class="size-5 text-emerald-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4v6a8 8 0 0016 0V4M8 8h8"/></svg>
+              </div>
+              <h3 class="text-lg font-semibold">Cero residuos</h3>
+            </div>
+            <p class="mt-3 text-sm">Reconsideración de los “residuos” como “recursos” en la generación de nuevos productos.</p>
+            <img alt="alimentos frescos" class="mt-4 h-32 w-full rounded-xl object-cover" src="https://static.vecteezy.com/system/resources/previews/002/055/448/large_2x/selection-of-fresh-foods-free-photo.jpg"/>
+          </article>
+
+          <!-- Consumo responsable -->
+          <article class="card-grad rounded-2xl bg-white/5 p-5 backdrop-blur-md ring-1 ring-white/10 transition hover:-translate-y-1 hover:shadow-xl">
+            <div class="flex items-center gap-3">
+              <div class="grid size-11 place-items-center rounded-xl bg-emerald-200/20 ring-1 ring-emerald-200/40" aria-hidden="true">
+                <svg class="size-5 text-emerald-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4v6a8 8 0 0016 0V4M8 8h8"/></svg>
+              </div>
+              <h3 class="text-lg font-semibold">Renaturalización y regeneración</h3>
+            </div>
+            <p class="mt-3 text-sm">Zonas verdes arboladas en núcleos urbanos y mejora espacios de alto valor ecológico.</p>
+            <img alt="alimentos frescos" class="mt-4 h-32 w-full rounded-xl object-cover" src="https://static.vecteezy.com/system/resources/previews/002/055/448/large_2x/selection-of-fresh-foods-free-photo.jpg"/>
+          </article>
+
+          <!-- Consumo responsable -->
+          <article class="card-grad rounded-2xl bg-white/5 p-5 backdrop-blur-md ring-1 ring-white/10 transition hover:-translate-y-1 hover:shadow-xl">
+            <div class="flex items-center gap-3">
+              <div class="grid size-11 place-items-center rounded-xl bg-emerald-200/20 ring-1 ring-emerald-200/40" aria-hidden="true">
+                <svg class="size-5 text-emerald-200" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4v6a8 8 0 0016 0V4M8 8h8"/></svg>
+              </div>
+              <h3 class="text-lg font-semibold">Optimización del ciclo del agua</h3>
+            </div>
+            <p class="mt-3 text-sm">Eficiencia en la producción industrial de los recursos hídricos.</p>
             <img alt="alimentos frescos" class="mt-4 h-32 w-full rounded-xl object-cover" src="https://static.vecteezy.com/system/resources/previews/002/055/448/large_2x/selection-of-fresh-foods-free-photo.jpg"/>
           </article>
         </div>
